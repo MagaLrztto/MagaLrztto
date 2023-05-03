@@ -42,14 +42,23 @@ footer{
 
 footer h3{
     text-align: center;
+    color: #e7e7e7;
 }
 
 #footer_info{
-    padding-left: 1rem;
-    padding-right: 1rem;
     color: #e7e7e7;
     display: flex;
-    justify-content: space-evenly;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 15px;
+    border-bottom: 2px gray solid;
+    background-color: yellowgreen;
+}
+
+#redes_footer{
+    border-left: 2px grey solid;
+    border-bottom: 2px gray solid;
+    background-color: orange;
 }
 
 #nav_footer ul{
@@ -73,6 +82,9 @@ footer h3{
 .fa-brands:hover{
     color: #f18769;
     font-size: 35px;
+}
+#footer_map{
+    align-content: center;
 }
 
 #copyright_section{
