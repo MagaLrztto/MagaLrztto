@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*HEADER*/
+header{
+    position: sticky;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(241, 135, 105, 0.9);
+    color: white;
+    
+    font-size:20px;
+    }
+
+@media screen and (max-width: 416px) {
+    header img{
+        width: 100%;
+    }
+}
+
+.fa-house{
+    color: #4b4b4b;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.fa-house:hover{
+    color:#e7e7e7;
+    font-weight: bold;
+    text-decoration: overline;
+ 
+}
+
+header a{
+    color: #4b4b4b;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header a:hover{
+    color:#e7e7e7;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #00a49d;
+    padding: 1rem;
+    padding-bottom: 0;
+    color: #4b4b4b;
+}
+
+footer h3{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#footer_info{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #e7e7e7;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#nav_footer ul{
+    list-style: none;
+}
+
+#nav_footer a{
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+#nav_footer a:hover{
+    color: #f18769;
+}
+
+.fa-brands{
+    padding: 5px;
+    color: #4b4b4b;
+    font-size: 40px;
+}
+
+.fa-brands:hover{
+    color: #f18769;
+    font-size: 50px;
+}
+
+#iconos_redes_footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#copyright_section{
+    text-align: center;
+    padding: 1rem;
+    color: #e7e7e7;
+}
+
+@media screen and (max-width: 550px) {
+        #footer_info{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #redes_footer{
+            padding-top: 1rem;
+        }
+        .fa-brands{
+            font-size: 25px;
+        }        
+        .fa-brands:hover{
+            font-size: 30px;
+        }
+        
+    }

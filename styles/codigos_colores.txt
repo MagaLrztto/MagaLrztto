@@ -1,0 +1,15 @@
+casi blanco
+#e7e7e7
+231, 231, 231
+
+Verde
+#00a49d
+0, 164, 157
+
+Salmon/Naranja
+#f18769
+241, 135, 105
+
+Gris oscuro
+#4b4b4b
+75, 75, 75
