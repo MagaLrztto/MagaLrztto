@@ -19,10 +19,10 @@
 </head>
 
 <header>
-    <img src="./img/logooo2.png" alt="logoPH">
+    <img #logo_grande src="./img/logooo2.png" alt="logoPH">
+    
     <nav>
-        <a href="./index.html">Home</a>
-        <a href="#">###</a>
+        <a href="./index.html"><i class="fa-solid fa-house"></i></i></a>
         <a href="./blog.html">Tips</a>
         <a href="./contacto.html">Contactános</a>
     </nav>
@@ -30,36 +30,56 @@
 <body>
    <main>
     <section id="formulario_contacto">
+        <h1>Contacto</h1>
         <form action="emailto:###" id="form">
-            <h1>Contacto</h1>
-            <input type="text" name="nombre" id="input_name" placeholder="Nombre">
-            <input type="email" name="email" id="input_email" placeholder="email">
-            <textarea name="consulta" id="input_text" cols="30" rows="10" maxlength="500" placeholder="Ingrese su consulta o sugerencia"></textarea>
-            <input type="submit" value="Enviar" id="submit">
-         </form>
+            <section id="form_name">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            </section>
+            <section id="form_email">
+            <input type="email" name="email" id="email" placeholder="email">
+            <i id="form-error" class="form-error fa-solid fa-circle-xmark"></i>
+            <p id="form_error">Ingresa un email válido. Ej. e-mail@email.com</p>
+            </section>
+            <section id="form_consulta_sugerencia">
+            <textarea name="consulta" cols="30" rows="10" maxlength="500" id="consulta_sugerencia" placeholder="Ingrese su consulta o sugerencia"></textarea>
+            </section>
+            </form>
+            <section>
+            <section id="form_completar">
+            <p><i class="form-completar fa-solid fa-circle-exclamation"></i>Por favor, complete el formulario correctamente.</p>
+            </section>
+            <section id="form_enviar">
+            <input type="submit" value="Enviar" id="submit_btn">
+            <p id="form_enviado">El formulario se envió exitosamente<i class="form-enviar fa-solid fa-check"></i></p>
+            </section>
+            </section>
+        
     </section>     
     </main>
+<script src="./js/form.js"></script>
 </body>
 
 <footer>
-
     <section id="footer_info">
         <section id="nav_footer">
             <h3>Links importantes</h3>    
             <ul>
-            <li><a href="###" ></a >#</li>
-            <li><a href="./blog.html#tips_perros">Tips Perros</a></li>
-            <li><a href="./blog.html#tips_gatos">Tips Gatos</a></li>
-            <li><a href="./contacto.html">Dejanos tu consulta o sugerencia</a></li>
-            </ul>
+                <li><a href="./blog.html#tips_perros">Tips Perros</a></li>
+                <li><a href="./blog.html#tips_gatos">Tips Gatos</a></li>
+                <li><a href="./blog.html#extra_tip">Como perros y gatos</a></li>
+                <li><a href="./testimonios.html">Lectores felices</a></li>    
+                <li><a href="./contacto.html">Dejanos tu consulta o sugerencia</a></li>
+                    </ul>
         </section>
     
         <section id="redes_footer">
             <h3>Seguinos en nuestras redes sociales</h3>
-            <a href="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="Facebook"><i class="fa-brands fa-facebook"></i></a>
-            <a href="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
-        </section>
+        <section id="iconos_redes_footer">
+            <a href=https://www.instagram.com><i class="fa-brands fa-instagram"></i></a>
+            <a href=https://www.facebook.com><i class="fa-brands fa-facebook"></i></a>
+            <a href=https://www.tiktok.com/es><i class="fa-brands fa-tiktok"></i></a>
+            <a href=https://twitter.com/home><i class="fa-brands fa-twitter"></i></a>
+        </section></section>
     </section>
     <section id="copyright_section">
         <p>Copyright &copy; 2023 PawsitiveHome</p>
