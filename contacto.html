@@ -32,32 +32,28 @@
     <section id="formulario_contacto">
         <h1>Contacto</h1>
         <form action="emailto:###" id="form">
-            <section id="form_name">
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <!--NOMBRE-->
+            <section class="form" id="form_nombre">
+            <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Nombre">
             </section>
-            <section id="form_email">
-            <input type="email" name="email" id="email" placeholder="email">
-            <i id="form-error" class="form-error fa-solid fa-circle-xmark"></i>
-            <p id="form_error">Ingresa un email válido. Ej. e-mail@email.com</p>
+            <!--email-->
+            <section class="form"  id="form_email">
+            <input class="email" type="email" name="email" id="email" placeholder="email">
             </section>
-            <section id="form_consulta_sugerencia">
+            <!--TEXTO-->
+            <section class="form"  id="form_consulta_sugerencia">
             <textarea name="consulta" cols="30" rows="10" maxlength="500" id="consulta_sugerencia" placeholder="Ingrese su consulta o sugerencia"></textarea>
             </section>
-            </form>
-            <section>
-            <section id="form_completar">
-            <p><i class="form-completar fa-solid fa-circle-exclamation"></i>Por favor, complete el formulario correctamente.</p>
-            </section>
-            <section id="form_enviar">
-            <input type="submit" value="Enviar" id="submit_btn">
-            <p id="form_enviado">El formulario se envió exitosamente<i class="form-enviar fa-solid fa-check"></i></p>
+            <!--BTN ENVIAR-->
+            <section class="form_enviar" id="form_enviar">
+            <button type="submit" value="Enviar" id="submit_btn">Enviar</button>
             </section>
             </section>
-        
-    </section>     
+        </form>   
+
+        </section>     
     </main>
-<script src="./js/form.js"></script>
-</body>
+<script src="./js/form.js"></script></body>
 
 <footer>
     <section id="footer_info">
@@ -67,7 +63,7 @@
                 <li><a href="./blog.html#tips_perros">Tips Perros</a></li>
                 <li><a href="./blog.html#tips_gatos">Tips Gatos</a></li>
                 <li><a href="./blog.html#extra_tip">Como perros y gatos</a></li>
-                <li><a href="./testimonios.html">Lectores felices</a></li>    
+                <li><a href="./testimonios.html">Familias felices</a></li>    
                 <li><a href="./contacto.html">Dejanos tu consulta o sugerencia</a></li>
                     </ul>
         </section>
