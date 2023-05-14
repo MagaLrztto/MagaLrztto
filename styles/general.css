@@ -9,15 +9,15 @@
 /*HEADER*/
 header{
     position: sticky;
+    top: 0;
     max-width: 100%;
     height: auto;
     padding: 1rem;
     text-align: center;
     background-color: rgba(241, 135, 105, 0.9);
     color: white;
-    
     font-size:20px;
-    }
+}
 
 @media screen and (max-width: 416px) {
     header img{

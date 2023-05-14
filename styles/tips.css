@@ -15,17 +15,19 @@ h1{
 h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 article{
-    padding: 1rem;
+    padding: 0.7rem;
     border: 1px solid #4b4b4b;
     border-radius: 20px;
-    text-align: center;
-    margin: 2rem;
+    text-align: left;
+    margin: 1rem;
     overflow: auto;
     width: 95%;
-    max-width: 20rem;
+    max-width: 25rem;
 }
 
 button{
@@ -47,4 +49,10 @@ button a:hover{
     display: flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
+}
+
+@media screen and (min-width:465px){
+    #como_perros_y_gatos{
+        max-width: 42rem;
+    }
 }

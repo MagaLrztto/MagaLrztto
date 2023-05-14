@@ -15,6 +15,7 @@ h1{
 h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    padding-bottom: 0.5rem;
 }
 
 article{
@@ -22,10 +23,19 @@ article{
     border: 1px solid #4b4b4b;
     border-radius: 20px;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
     overflow: auto;
     width: 95%;
     max-width: 20rem;
+    height: 22rem;
+}
+
+article::-webkit-scrollbar{
+    width: 1px;
+}
+
+article::-webkit-scrollbar-thumb{
+    display: none;
 }
 
 button{
@@ -47,4 +57,20 @@ button a:hover{
     display: flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
+}
+
+@media screen and (max-width: 735px){
+    article{
+        width: 95%;
+        max-width: 20rem;
+        height: max-content;
+        }
+}
+
+@media screen and (min-width: 736px){
+    article{
+        width: 90%;
+        max-width: 30rem;
+        height: max-content;
+        }
 }
