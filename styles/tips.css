@@ -27,7 +27,8 @@ article{
     margin: 1rem;
     overflow: auto;
     width: 95%;
-    max-width: 25rem;
+    max-width: 45rem;
+    max-height: fit-content;
 }
 
 button{
@@ -46,13 +47,22 @@ button a:hover{
 }
 
 #tips_perros, #tips_gatos, #extra_tip{
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
-@media screen and (min-width:465px){
-    #como_perros_y_gatos{
-        max-width: 42rem;
+@media screen and (max-width: 660px){
+    article{
+        max-height: 25rem;
+
+    };
+    h2{
+        font-size: 16px;
+    };
+    ul li{
+        font-size: 12px;
     }
+        
 }
+

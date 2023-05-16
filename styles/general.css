@@ -14,9 +14,17 @@ header{
     height: auto;
     padding: 1rem;
     text-align: center;
-    background-color: rgba(241, 135, 105, 0.9);
+    background-color: rgba(241, 135, 105, 0.8);
     color: white;
     font-size:20px;
+}
+
+#no_index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 3rem;
 }
 
 @media screen and (max-width: 416px) {

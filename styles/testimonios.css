@@ -12,3 +12,123 @@ h1{
     text-align: center;
 }
 
+h3{
+    font-size: 30px;
+    color: #e7e7e7;
+    font-weight: bold;
+    text-shadow: #4b4b4b 1px 1px;
+}
+#flias_felices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#familia{
+    margin: 2rem;
+    color: #e7e7e7;
+    transition: all 500ms ease-in-out;
+
+}
+
+#familia p{
+    opacity: 0 ;
+    visibility: hidden;
+    transition: all 500ms ease-in-out;
+}
+
+#familia :hover > p{
+    opacity: 1;
+    visibility: visible;
+}
+
+#familia :hover {
+    background-color: #4b4b4b;
+    
+}
+
+#familia #info_flia{
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.familia1{
+    background-image:url(../img/flia1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.familia2{
+    background-image: url(../img/flia2x.jpg);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.familia3{
+    background-image: url(../img/flia3x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.familia4{
+    background-image: url(../img/flia4x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+.familia5{
+    background-image: url(../img/flia5x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+.familia6{
+    background-image: url(../img/flia6x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#familia #info_flia #texto_flia{
+    width: 100%;
+    height: 100%;
+}
+
+#formar_parte a{
+    color: #4b4b4b;
+}
+
+#formar_parte a:hover{
+    color: #f18769;
+}
+
+#formar_parte p{
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:650px) {
+    #flias_felices{
+        grid-template-columns: 1fr;
+    
+    }
+}
+
+@media screen and (max-width:800px) {
+    #flias_felices{
+        grid-template-columns: 1fr 1fr;
+    
+    }
+}
