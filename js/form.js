@@ -27,3 +27,25 @@ function validarEmail(email) {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 }
+
+const url = 'https://dog.ceo/api/breeds/image/random';
+
+
+
+//API
+fetch(url)
+  .then(response => {
+	if (response.ok) {
+	  return response.json();
+	} else {
+	  throw new Error('Error al realizar la solicitud:', response.status);
+	}
+  })
+  .then(data => {
+	const imageUrl = data.message;
+	const dogImage = document.getElementById('dogImage');
+	dogImage.src = imageUrl;
+  })
+  .catch(error => {
+	console.error('Error:', error);
+  }).mount("#api.perros");
