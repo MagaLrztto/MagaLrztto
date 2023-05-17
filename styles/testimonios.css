@@ -119,16 +119,15 @@ h3{
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:1000px) {
+    #flias_felices{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:730px) {
     #flias_felices{
         grid-template-columns: 1fr;
     
     }
 }
 
-@media screen and (max-width:800px) {
-    #flias_felices{
-        grid-template-columns: 1fr 1fr;
-    
-    }
-}

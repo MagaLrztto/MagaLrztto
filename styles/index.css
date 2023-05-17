@@ -5,6 +5,7 @@ body{
 main{
     padding: 1rem;
 }
+
 #adopta_noCompres{
     padding: 2rem;
     display: flex;
@@ -29,17 +30,23 @@ h2{
 
 #msj-bienvenida{
     font-size: 40px;
+    max-width: 100%;
     
 }
 
 .bv_p{
-  font-size: 1rem;
+  font-size: 20px;
   margin: 1rem;
   text-align: center;
 }
 
 #categorias{
     text-align: center;
+}
+
+#categorias a:hover{
+    text-decoration: underline;
+    color: #f18769;
 }
 
 #link_tips{
@@ -51,12 +58,9 @@ h2{
     text-decoration: none;
 }
 
-#link_tips a:hover{
-    text-decoration: underline;
-}
-
 #cat p{
     text-align: center;
+    font-size: 18px;
 }
 
 #cat{
@@ -65,7 +69,7 @@ h2{
     flex-wrap: wrap;
 }
 
-#cat section, img{
+#cat section, #cat-img{
     padding: 1rem;
     border: 1px solid #4b4b4b;
     border-radius: 20px;
@@ -73,20 +77,12 @@ h2{
     margin: 1rem;
     overflow: auto;
     width: 95%;
-    max-width: 25rem;;
-}
-#cat-perros h2{
-    margin-bottom: 2rem;
+    max-width: 25rem;
 }
 
-#cat-gatos h2{
-    margin-bottom: 2rem;
-}
-
-
-img{
+#cat-img {
     border:none;
- }
+}
 
 #cat section::-webkit-scrollbar{
     width: 1px;
@@ -94,6 +90,7 @@ img{
 
 .texto_ANC p{
     padding: 0.5rem;
+    font-size: 18px;
 }
 
 .texto_ANC a{
@@ -123,7 +120,7 @@ img{
 @media screen and (max-width: 703px){
     #cat section{
         width: 95%;
-        max-width: 20rem;
+        max-width: 30rem;
         height: max-content;
         }
 }
@@ -132,5 +129,8 @@ img{
     #cat-cpg{ 
         display: block;
         width: 95%;
+    };
+    #cat section p{
+        font-size: 12px;
     }
 }
