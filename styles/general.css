@@ -97,12 +97,12 @@ footer h3{
 .fa-brands{
     padding: 5px;
     color: #4b4b4b;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .fa-brands:hover{
     color: #f18769;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 #iconos_redes_footer{
@@ -127,7 +127,7 @@ footer h3{
             padding-top: 1rem;
         }
         .fa-brands{
-            font-size: 25px;
+            font-size: 20px;
         }        
         .fa-brands:hover{
             font-size: 30px;
