@@ -26,10 +26,6 @@ h1{
     font-family: inherit;
 }
 
-p{
-    font-size: 12px;
-}
-
 #form{
     display: flex;
     flex-direction: column;
