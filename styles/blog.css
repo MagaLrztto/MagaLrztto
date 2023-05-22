@@ -27,7 +27,7 @@ article{
     overflow: auto;
     width: 95%;
     max-width: 20rem;
-    height: 22rem;
+    height: max-content;
 }
 
 article::-webkit-scrollbar{
@@ -59,18 +59,9 @@ button a:hover{
     flex-wrap:wrap;
 }
 
-@media screen and (max-width: 735px){
-    article{
-        width: 95%;
-        max-width: 20rem;
-        height: max-content;
-        }
-}
-
 @media screen and (min-width: 736px){
     article{
         width: 90%;
         max-width: 30rem;
-        height: max-content;
         }
 }

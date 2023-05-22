@@ -28,11 +28,10 @@ function validarEmail(email) {
   return regex.test(email);
 }
 
+//API
+
 const url = 'https://dog.ceo/api/breeds/image/random';
 
-
-
-//API
 fetch(url)
   .then(response => {
 	if (response.ok) {
